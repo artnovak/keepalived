@@ -1,0 +1,86 @@
+2022-03-28 22:00:09,816 p=1965 u=artnovak n=ansible | @all:
+  |--@MyServer:
+  |  |--37.230.114.151
+  |--@ungrouped:
+2022-03-28 22:00:23,131 p=1968 u=artnovak n=ansible | 37.230.114.151 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2022-03-28 22:00:56,604 p=1979 u=artnovak n=ansible | 37.230.114.151 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@37.230.114.151: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2022-03-28 23:05:52,120 p=1990 u=artnovak n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: hosts
+
+2022-03-28 23:05:52,120 p=1990 u=artnovak n=ansible | [WARNING]: No hosts matched, nothing to do
+
+2022-03-28 23:05:52,122 p=1990 u=artnovak n=ansible | ERROR! No argument passed to command module
+2022-03-28 23:06:06,707 p=1995 u=artnovak n=ansible | 37.230.114.151 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@37.230.114.151: Permission denied (publickey,password).",
+    "unreachable": true
+}
+2022-03-28 23:07:28,153 p=2044 u=artnovak n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2022-03-28 23:07:28,155 p=2044 u=artnovak n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2022-03-28 23:07:51,851 p=2062 u=artnovak n=ansible | 172.16.1.50 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@172.16.1.50: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2022-03-28 23:07:51,854 p=2062 u=artnovak n=ansible | 172.16.1.51 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@172.16.1.51: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2022-03-28 23:07:51,868 p=2062 u=artnovak n=ansible | 172.16.1.53 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@172.16.1.53: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2022-03-28 23:07:51,869 p=2062 u=artnovak n=ansible | 172.16.1.52 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: artnovak@172.16.1.52: Permission denied (publickey,gssapi-keyex,gssapi-with-mic,password).",
+    "unreachable": true
+}
+2022-03-28 23:08:00,628 p=2085 u=artnovak n=ansible | 172.16.1.51 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2022-03-28 23:08:00,629 p=2085 u=artnovak n=ansible | 172.16.1.50 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2022-03-28 23:08:00,629 p=2085 u=artnovak n=ansible | 172.16.1.53 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2022-03-28 23:08:00,657 p=2085 u=artnovak n=ansible | 172.16.1.52 | FAILED! => {
+    "msg": "to use the 'ssh' connection type with passwords or pkcs11_provider, you must install the sshpass program"
+}
+2022-03-28 23:09:41,867 p=2144 u=artnovak n=ansible | 172.16.1.50 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2022-03-28 23:09:41,878 p=2144 u=artnovak n=ansible | 172.16.1.52 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2022-03-28 23:09:41,878 p=2144 u=artnovak n=ansible | 172.16.1.51 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+2022-03-28 23:09:41,881 p=2144 u=artnovak n=ansible | 172.16.1.53 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python"
+    },
+    "changed": false,
+    "ping": "pong"
+}

@@ -1,0 +1,8 @@
+[LB]
+172.16.1.50
+172.16.1.51
+[WebServers]
+172.16.1.52
+172.16.1.53
+
+#//172.16.1.53 ansible_connection=ssh  ansible_user=root
